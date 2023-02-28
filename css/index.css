@@ -1,3 +1,40 @@
 *{
-    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    margin: 0;   
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    color: red;
+}
+#index{
+    text-align: center;
+    background-color: #bbedf9;
+    padding: 5px;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+    background-color: #9ec6d1;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    margin:20px 50px 20px 50px;
+}
+#index h2{
+    margin:10px 50px 25px 50px;
+}
+#index a{
+    margin:50px 100px 50px 100px;
+}
+#section1 img{
+    align:right;
 }
