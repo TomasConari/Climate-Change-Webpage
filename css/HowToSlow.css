@@ -35,12 +35,17 @@ nav {
     top: 0px;
     z-index: 1;
 }
-.space{
-    width: 50%;
-    height: 5px;
+.line {  
+    display: flex;  
+    flex-direction: row;
+}
+.space {
+    width: 1700px;
+    height: 30px;
+    margin: 25px;
     background-color: #76CDD4;
 }
-#tittle{
+.tittle { 
     width: 900px;
 }
 footer {
@@ -59,7 +64,6 @@ nav p {
 }
 #index a {
     margin: 50px;
-
 }
 nav a {
     margin: 20px 50px 20px 50px;
@@ -68,4 +72,7 @@ nav a {
 #index p {
     border-bottom: solid;
     padding-bottom: 20px;
+}
+#main{
+    margin-left: 3%;
 }
