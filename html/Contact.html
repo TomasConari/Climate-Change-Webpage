@@ -6,79 +6,100 @@
     </head>
     <body>
         <header>
-            <h1>Contact</h1>
             <nav>
-                <a href="../ClimateChangeIndex.html">Climate Change</a>
+                <a href="../Index.html">Climate Change</a>
                 <a href="HowToSlow.html">How To Slow Climate Change</a>
                 <a href="AboutMe.html">About Me</a>
                 <a href="Contact.html">Contact</a>
             </nav>
         </header>
+        <br> <br> <br>
         <div id="main">
+            <div class="line">
+                <div class="tittle">
+                    <h1>Contact</h1>
+                </div>
+                <div class="space">
+
+                </div>
+            </div>
             <h2>Please fill this Form:</h2>
-            <form action="Contact.html"method="Post">
-                <div id="email">
-                    <label for="email">E-mail</label>
-                    <input type="text" name="email" id="email">
-                </div>
-                <div id="name">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" id="lastname">
-                </div>
-                <div id="number">
-                    <label for="number">Cellphone Number</label>
-                    <input type="text" name="number" id="number">
-                </div>
-                <div id="datalist">
-                    <label for="country">Country (Currently only on Latam)</label>
-                    <input type="text" list="latam" id="country" name="country">
-                    <datalist id="latam">
-                        <option value="Argentina"></option>
-                        <option value="Bolivia"></option>
-                        <option value="Brasil"></option>
-                        <option value="Chile"></option>
-                        <option value="Colombia"></option>
-                        <option value="Costa Rica"></option>
-                        <option value="Cuba"></option>
-                        <option value="Ecuador"></option>
-                        <option value="El Salvador"></option>
-                        <option value="Guatemala"></option>
-                        <option value="Haití"></option>
-                        <option value="Honduras"></option>
-                        <option value="Mexico"></option>
-                        <option value="Nicaragua"></option>
-                        <option value="Panamá"></option>
-                        <option value="Paraguay"></option>
-                        <option value="Perú"></option>
-                        <option value="República Dominicana"></option>
-                        <option value="Uruguay"></option>
-                        <option value="Venezuela"></option>
-                    </datalist>
-                </div>
-                <div id="city">
-                    <label for="city">City</label>
-                    <input type="text" name="city" id="city">
-                </div>
-                <div id="checkbox">
-                    <p>How do you know us?</p>
-                    <label for="ads">Ads</label>
-                    <input type="checkbox" name="know" id="ads" value="ads">
-                    <label for="friend">Friend/Family</label>
-                    <input type="checkbox" name="know" id="friend" value="friend">
-                    <label for="socials">Social Media</label>
-                    <input type="checkbox" name="know" id="socials" value="socials">
-                </div>
-                <div id="textarea">
-                    <label for="observations">Extra Observations:</label>
-                    <textarea id="observations" name="observations" rows="5" cols="50">Write Here: </textarea>
-                </div>
-                <div id="submit">
-                    <input type="submit" value="Send">
-                </div>
-            </form>
+            <div class="box">
+                <form action="Contact.html" method="Post">
+                    <div id="email">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <br><br>
+                    <div id="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required pattern="[a-zA-Z ]+">
+                        <br><br>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" required pattern="[a-zA-Z ]+">
+                        
+                    </div>
+                    <br><br>
+                    <div id="number">
+                        <label for="number">Cellphone Number</label>
+                        <input type="text" name="number" id="number" pattern="[0-9 ]+">
+                    </div>
+                    <br><br>
+                    <div id="datalist">
+                        <label for="country">Country (Currently only on Latam)</label>
+                        <input type="text" list="latam" id="country" name="country" required>
+                        <datalist id="latam">
+                            <option value="Argentina"></option>
+                            <option value="Bolivia"></option>
+                            <option value="Brasil"></option>
+                            <option value="Chile"></option>
+                            <option value="Colombia"></option>
+                            <option value="Costa Rica"></option>
+                            <option value="Cuba"></option>
+                            <option value="Ecuador"></option>
+                            <option value="El Salvador"></option>
+                            <option value="Guatemala"></option>
+                            <option value="Haití"></option>
+                            <option value="Honduras"></option>
+                            <option value="Mexico"></option>
+                            <option value="Nicaragua"></option>
+                            <option value="Panamá"></option>
+                            <option value="Paraguay"></option>
+                            <option value="Perú"></option>
+                            <option value="República Dominicana"></option>
+                            <option value="Uruguay"></option>
+                            <option value="Venezuela"></option>
+                        </datalist>
+                    </div>
+                    <br>
+                    <div id="city">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" pattern="[a-zA-Z ]+">
+                    </div>
+                    <br><br>
+                    <div id="checkbox">
+                        <p>How do you know us?</p>
+                        <label for="ads">Ads</label>
+                        <input type="checkbox" name="know" id="ads" value="ads">
+                        <label for="friend">Friend/Family</label>
+                        <input type="checkbox" name="know" id="friend" value="friend">
+                        <label for="socials">Social Media</label>
+                        <input type="checkbox" name="know" id="socials" value="socials">
+                    </div>
+                    <br>
+                    <div id="textarea">
+                        <label for="observations">Extra Observations:</label>
+                        <br>
+                        <textarea id="observations" name="observations" rows="5" cols="50">Write Here: </textarea>
+                    </div>
+                </form>
+            </div>
+            <br><br>
+            <div id="submit">
+                <input type="submit" value="Send">
+            </div>
         </div>
+        <br><br><br>
         <footer>
             <h3>
                 This website was made in HTML and CSS
