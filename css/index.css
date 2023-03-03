@@ -1,93 +1,144 @@
-*{
+* {
     font-family: 'Roboto Mono', monospace;
 }
-body{
+body {
     margin: 0px;
-    background-color: #f7fdff;   
+    background-color: #f7fdff;
 }
-a{
+a {
     font-family: 'Open Sans', sans-serif;
 }
-a:hover{
+a:hover {
     color: red;
 }
-#index{
+#index {
     text-align: center;
     background-color: #76CDD4;
     padding: 5px;
     border-top: solid;
     border-bottom: solid;
 }
-h1{
+h1 {
     margin: 5%;
     text-align: center;
     position: relative;
 }
-nav{
+nav {
     background-color: #bbedf9;
     padding: 10px;
     text-align: center;
-    border-top:solid;
+    border-top: solid;
     border-bottom: solid;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0px;
     z-index: 1;
 }
-footer{
-    background-color:#bbedf9;
+footer {
+    background-color: #bbedf9;
     margin-bottom: 0px;
     border-top: solid;
+    text-align: center;
 }
-nav p{
-    margin:20px 50px 20px 50px;
-    display: inline;
+.line1{
+    display: flex;
+    flex-direction: row;
 }
-#index h2{
-    margin:10px 50px 25px 50px;
-    border-bottom: solid;
+.line2{
+    display: flex;
+    flex-direction: row-reverse;
 }
-#index a{
-    margin:50px;
+.space{
+    width: 1700px;
+    height: 30px;
+    margin: 25px;
+    background-color: #76CDD4;
 }
-img.side{
-    width: 25%;
-    height: 25%;
+.image3 {
+    width: 50%;
+    height: 40%;
     float: right;
 }
-table, td{
-    border: 1px solid;
+.image4 {
+    width: 50%;
+    height: 70%;
+    float: right;
 }
-table{
-    text-align: center;
-    margin:auto;
+.image5 {
+    width: 100%;
+    height: 100%;
 }
-h2{
-    margin-left: 5%;
+#tittle1 {
+    width: 700px;
 }
-video{
-    align-items: center;
-    width: 30%;
-    height:30%;
-    display:block;
-    margin: 0 auto;
-    border-style: solid;
+#tittle2 {
+    width: 730px;
 }
-.section{
-    position:relative;
+.tittle3 {
+    width: 800px;
+}
+#tittle5 {
+    width: 510px;
+}
+.section {
+    position: relative;
     margin: 0px 5%;
 }
-#index img{
+table {
+    text-align: center;
+    margin: auto;
+}
+h2 {
+    margin-left: 5%;
+}
+video {
+    width: 70%;
+    height: 45%;
+    display: block;
+    margin: 0 auto;
+}
+.section {
+    position: relative;
+    margin: 0px 5%;
+}
+#center {
+    width: 100%;
+    text-align: center;
+}
+nav p {
+    margin: 20px 50px 20px 50px;
+    display: inline;
+}
+#index h2 {
+    margin: 10px 50px 25px 50px;
+    border-bottom: solid;
+}
+#index a {
+    margin: 50px;
+}
+img.side {
+    width: 30%;
+    height: 30%;
+    float: right;
+}
+table,td {
+    border: 1px solid;
+}
+#index img {
     width: 40%;
 }
-#index p{
+#index p {
     border-bottom: solid;
     padding-bottom: 20px;
 }
 body a {
     margin-left: 5%;
 }
-#center{
-    width: 100%;
-    text-align: center;
+.box1,.box3,.box5,.box6,.box7 {
+    display: flex;
+    flex-direction: row;
+}
+.box2,.box4 {
+    display: flex;
+    flex-direction: row-reverse;
 }

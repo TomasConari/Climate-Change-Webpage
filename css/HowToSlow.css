@@ -1,61 +1,95 @@
-*{
+* {
     font-family: 'Roboto Mono', monospace;
 }
-body{
+
+body {
     margin: 0px;
-    background-color: #f7fdff;   
+    background-color: #f7fdff;
 }
-a{
+
+a {
     font-family: 'Open Sans', sans-serif;
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-#index{
+
+#index {
     text-align: center;
     background-color: #76CDD4;
     padding: 5px;
     border-top: solid;
     border-bottom: solid;
 }
-h1{
+
+h1 {
     margin: 5%;
     text-align: center;
     position: relative;
 }
-nav{
+
+nav {
     background-color: #bbedf9;
     padding: 10px;
     text-align: center;
-    border-top:solid;
+    border-top: solid;
     border-bottom: solid;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0px;
     z-index: 1;
 }
-footer{
-    background-color:#bbedf9;
+
+footer {
+    background-color: #bbedf9;
     margin-bottom: 0px;
     border-top: solid;
+    text-align: center;
 }
-nav p{
-    margin:20px 50px 20px 50px;
+
+nav p {
+    margin: 20px 50px 20px 50px;
     display: inline;
 }
-#index h2{
-    margin:10px 50px 25px 50px;
+
+#index h2 {
+    margin: 10px 50px 25px 50px;
     border-bottom: solid;
 }
-#index a{
-    margin:50px;
+
+#index a {
+    margin: 50px;
 
 }
-nav p{
-    margin:20px 50px 20px 50px;
+
+nav p {
+    margin: 20px 50px 20px 50px;
     display: inline;
 }
-#index p{
+
+#index p {
     border-bottom: solid;
     padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+}
+
+.space {
+    width: 1700px;
+    height: 30px;
+    margin: 25px;
+    background-color: #76CDD4;
+}
+
+.titulo {
+    width: 900px;
 }
