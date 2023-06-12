@@ -1,7 +1,10 @@
 # Website-Project
 Website made with HTML and CSS
 
+This was my first website using HTML and CSS.
+
 How to see it?
+
     1.Download/clone the repository.
     2.Open "Index.html"
 
