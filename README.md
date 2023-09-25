@@ -64,7 +64,7 @@ This proyect has 4 pages:
             -Extra observations.
       
       
-  3.About Me:
+  4.About Me:
   
 
   
@@ -81,3 +81,8 @@ This proyect has 4 pages:
             -My Linkedin Link.
             -My Github Link.
 
+My Links:
+
+    -Linkedin: https://www.linkedin.com/in/tomascontreras1307/
+    -Github: https://github.com/TomasConari
+    -Email: tomasconari@gmail.com
