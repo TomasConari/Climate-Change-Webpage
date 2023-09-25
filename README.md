@@ -18,7 +18,7 @@ Proyect Info:
     
       1.Index/Climate Change:
       
-        After each section there is a button that returns you to the index.
+        After each topic's section there is a button that returns you to the index.
         
         Topics:
         
