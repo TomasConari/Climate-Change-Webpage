@@ -1,5 +1,6 @@
 # Website-Project
-Website made with HTML and CSS
+Website made with HTML and CSS.
+
 This project is outdated, there are plans to fix it.
 
 This was my first website using HTML and CSS.
