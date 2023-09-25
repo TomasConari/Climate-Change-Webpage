@@ -31,44 +31,38 @@ Proyect Info:
           
       2.How To Slow Climate Change:
       
-        Topics:
-        
-            -How to slow climate change:
-                -Reduce energy consumption.
-                -Reduce water consumption.
-                -Reduce meat consumption.
-                -Use sustainable transportation.
-                -Reduce waste.
-                -Plant trees.
-                -Advocate for change.
+        -How to slow climate change:
+            -Reduce energy consumption.
+            -Reduce water consumption.
+            -Reduce meat consumption.
+            -Use sustainable transportation.
+            -Reduce waste.
+            -Plant trees.
+            -Advocate for change.
           
           
       3.Contact:
 
-        Topics:
-        
-            -Contact Form:
-                -Email.
-                -Name.
-                -Lastname.
-                -Cellphone Number.
-                -Country.
-                -City.
-                -How do you know us?.
-                -Extra observations.
+        -Contact Form:
+            -Email.
+            -Name.
+            -Lastname.
+            -Cellphone Number.
+            -Country.
+            -City.
+            -How do you know us?.
+            -Extra observations.
           
           
       4.About Me:
       
-        Topics:
-        
-            -About Me:
-                -Pic of myself.
-                -Name.
-                -Email.
-                -Short Description.
-                -Principal Skills.
-                -My Linkedin Link.
+        -About Me:
+            -Pic of myself.
+            -Name.
+            -Email.
+            -Short Description.
+            -Principal Skills.
+            -My Linkedin Link.
             -My Github Link.
 
 My Links:
