@@ -1,4 +1,4 @@
-# Website-Project
+# Climate Change Webpage
 Website made with HTML and CSS.
 
 This project is outdated, there are plans to fix it.
